@@ -7,8 +7,4 @@
 #   individually.
 #
 set -e
-for TEST in ./tests/*.py; do
-    echo "Running test [$TEST]..."
-    nosetests "$@" "$TEST"
-    echo
-done
+mkdir app/moodledata
